@@ -235,7 +235,7 @@ class Tugas extends StatelessWidget {
                           ),
                           child: Container(
                             width: 200,
-                            height: 100,
+                            height: 80,
                             margin: EdgeInsets.fromLTRB(0, 100, 0, 0),
                             color: Colors.white,
                             child: ListTile(
