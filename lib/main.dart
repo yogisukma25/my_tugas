@@ -34,7 +34,7 @@ class Tugas extends StatelessWidget {
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: NetworkImage('https://i.postimg.cc/Hn8M7ydT/1-1.jpg'),
+                    image: NetworkImage('https://i.postimg.cc/Bn9xCv9B/1-2.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -48,9 +48,9 @@ class Tugas extends StatelessWidget {
                     unselectedLabelColor: Colors.black45,
                     indicatorColor: Colors.lightGreenAccent,
                     tabs: [
-                      new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
-                      new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
-                      new Tab(icon: new Icon(Icons.playlist_add_check_sharp), text: "Playlist"),
+                      //   new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
+                      //   new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
+                      //   new Tab(icon: new Icon(Icons.playlist_add_check_sharp), text: "Playlist"),
                     ],
                   ),
                 ),
