@@ -67,7 +67,8 @@ class Tugas extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Container(
+                        ),
+                        Container(
                           height: 200,
                           width: 155,
                           alignment: Alignment.center,
