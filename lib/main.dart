@@ -238,12 +238,12 @@ class Tugas extends StatelessWidget {
                             color: Colors.white,
                             child: ListTile(
                               title: Text(
-                                "Xiaomi Note 9",
+                                "Xiaomi Redmi 4a",
                                 textAlign: TextAlign.left,
                                 style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
                               ),
                               subtitle: Text(
-                                "Rp 2.250.000,00",
+                                "Rp 950.000,00",
                                 textAlign: TextAlign.left,
                                 style: TextStyle(
                                   color: Colors.red,
