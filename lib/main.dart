@@ -17,71 +17,54 @@ class MyApp extends StatelessWidget {
 class Tugas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
-        body: DefaultTabController(
-      length: 3,
-      child: NestedScrollView(
-          headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
-            return <Widget>[
-              SliverAppBar(
-                expandedHeight: 500.0,
-                floating: false,
-                pinned: true,
-                flexibleSpace: FlexibleSpaceBar(
-                  color: Colors.white,
-                  centerTitle: false,
-                  title: Container(
-                    //elevation: 100,
-                    child: Text("Xiaomi Redmi 4a",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 15.0,
-                        )),
-                  ),
-                  background: Image(
-                    image: NetworkImage('https://i.postimg.cc/Bn9xCv9B/1-2.jpg'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-              SliverPersistentHeader(
-                pinned: true,
-                floating: false,
-                delegate: _SliverAppBarDelegate(
-                  TabBar(
-                    labelColor: Colors.lightBlueAccent,
-                    unselectedLabelColor: Colors.black45,
-                    indicatorColor: Colors.lightGreenAccent,
-                    tabs: [
-                      //   new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
-                      //   new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
-                      //   new Tab(icon: new Icon(Icons.playlist_add_check_sharp), text: "Playlist"),
-                    ],
-                  ),
-                ),
-              ),
-            ];
-          },
-          body: TabBarView(
-            children: <Widget>[],
-          )),
-    ));
+        appBar: AppBar(
+          title: Center(
+            child: Text('Toko Online', style: TextStyle(fontSize: 50, fontFamily: 'DancingScript', color: Colors.white)),
+          ),
+        ),
+        body: ListView(
+          children: <Widget>[
+            Row(
+              children: [
+                Column(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        color: const Color(0xff7c94b6),
+                        image: const DecorationImage(
+                          image: NetworkImage('https://i.postimg.cc/VLrQYJN3/Whats-App-Image-2022-05-18-at-12-08-23.jpg'),
+                          fit: BoxFit.cover,
+                        ),
+                        border: Border.all(
+                          color: Colors.green,
+                          width: 8,
+                        ),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            )
+          ],
+        ));
   }
 }
 
-class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
-  _SliverAppBarDelegate(this._tabBar);
-  final TabBar _tabBar;
+// class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
+//   _SliverAppBarDelegate(this._tabBar);
+//   final TabBar _tabBar;
 
-  double get minExtent => _tabBar.preferredSize.height;
-  double get maxExtent => _tabBar.preferredSize.height;
+//   double get minExtent => _tabBar.preferredSize.height;
+//   double get maxExtent => _tabBar.preferredSize.height;
 
-  Widget build(BuildContext context, double shrinkOffset, bool overlabsContents) {
-    return new Container(
-      child: _tabBar,
-    );
-  }
+//   Widget build(BuildContext context, double shrinkOffset, bool overlabsContents) {
+//     return new Container(
+//       child: _tabBar,
+//     );
+//   }
 
-  bool shouldRebuild(_SliverAppBarDelegate oldDelegate) {
-    return false;
-  }
-}
+//   bool shouldRebuild(_SliverAppBarDelegate oldDelegate) {
+//     return false;
+//   }
+//}
