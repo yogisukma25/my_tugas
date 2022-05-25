@@ -34,7 +34,7 @@ class Tugas extends StatelessWidget {
                     child: Text("Xiaomi Redmi 4a",
                         style: TextStyle(
                           color: Colors.black,
-                          fontSize: 20.0,
+                          fontSize: 15.0,
                         )),
                   ),
                   background: Image(
