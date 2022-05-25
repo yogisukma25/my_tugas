@@ -37,7 +37,7 @@ class Tugas extends StatelessWidget {
                         ),
                         border: Border.all(
                           color: Colors.green,
-                          width: 8,
+                          width: 1,
                         ),
                         borderRadius: BorderRadius.circular(12),
                       ),
