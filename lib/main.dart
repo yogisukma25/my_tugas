@@ -28,11 +28,13 @@ class Tugas extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("Belajar SliverAppBar",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20.0,
-                      )),
+                  title: Container(
+                    child: Text("Xiaomi Redmi 4a",
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20.0,
+                        )),
+                  ),
                   background: Image(
                     image: NetworkImage('https://i.postimg.cc/Bn9xCv9B/1-2.jpg'),
                     fit: BoxFit.cover,
