@@ -49,7 +49,12 @@ class Tugas extends StatelessWidget {
                             ),
                             borderRadius: BorderRadius.circular(12),
                           ),
-                          child: Card(),
+                          child: Card(
+                            child: ListTile(
+                              title: Text("Xiaomi Note 9"),
+                              subtitle: Text("Rp 2.250.000,00"),
+                            ),
+                          ),
                         )
                       ],
                     )
