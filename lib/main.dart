@@ -234,7 +234,7 @@ class Tugas extends StatelessWidget {
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Container(
-                            margin: EdgeInsets.fromLTRB(0, 100, 0, 0),
+                            margin: EdgeInsets.fromLTRB(0, 135, 0, 0),
                             color: Colors.white,
                             child: ListTile(
                               title: Text(
