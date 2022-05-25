@@ -56,7 +56,7 @@ class Tugas extends StatelessWidget {
                               title: Text("Xiaomi Note 9"),
                               subtitle: Text(
                                 "Rp 2.250.000,00",
-                                textAlign: TextAlign.center,
+                                textAlign: TextAlign.left,
                                 style: TextStyle(color: Colors.red),
                               ),
                             ),
