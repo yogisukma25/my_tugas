@@ -20,9 +20,7 @@ class Tugas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Center(
-            child: Text('Toko Online', textAlign: TextAlign.left, style: TextStyle(fontSize: 20, color: Colors.white)),
-          ),
+          title: Text('Toko Online', textAlign: TextAlign.left, style: TextStyle(fontSize: 20, color: Colors.white)),
         ),
         body: Container(
             margin: EdgeInsets.all(10),
