@@ -23,7 +23,7 @@ class Tugas extends StatelessWidget {
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
               SliverAppBar(
-                expandedHeight: 20.0,
+                expandedHeight: 500.0,
                 floating: false,
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
