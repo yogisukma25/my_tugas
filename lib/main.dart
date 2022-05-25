@@ -21,7 +21,7 @@ class Tugas extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Center(
-            child: Text('Toko Online', style: TextStyle(fontSize: 20, color: Colors.white)),
+            child: Text('Toko Online', textAlign: TextAlign.left, style: TextStyle(fontSize: 20, color: Colors.white)),
           ),
         ),
         body: Container(
