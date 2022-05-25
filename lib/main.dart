@@ -30,7 +30,7 @@ class Tugas extends StatelessWidget {
                   centerTitle: false,
                   title: Container(
                     color: Colors.white,
-                    elevation: 100,
+                    //elevation: 100,
                     child: Text("Xiaomi Redmi 4a",
                         style: TextStyle(
                           color: Colors.black,
