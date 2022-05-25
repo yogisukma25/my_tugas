@@ -21,7 +21,7 @@ class Tugas extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Center(
-            child: Text('Toko Online', style: TextStyle(fontSize: 50, color: Colors.white)),
+            child: Text('Toko Online', style: TextStyle(fontSize: 20, color: Colors.white)),
           ),
         ),
         body: Container(
@@ -56,6 +56,8 @@ class Tugas extends StatelessWidget {
                               title: Text("Xiaomi Note 9"),
                               subtitle: Text(
                                 "Rp 2.250.000,00",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(color: Colors.red),
                               ),
                             ),
                           ),
