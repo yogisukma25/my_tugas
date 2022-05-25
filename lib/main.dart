@@ -50,7 +50,7 @@ class Tugas extends StatelessWidget {
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Container(
-                            margin: EdgeInsets.fromLTRB(0, 150, 0, 0),
+                            margin: EdgeInsets.fromLTRB(0, 0, 200, 0),
                             color: Colors.white,
                             child: ListTile(
                               title: Text(
