@@ -40,7 +40,7 @@ class Tugas extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: const Color(0xff7c94b6),
                             image: const DecorationImage(
-                              image: NetworkImage('https://i.postimg.cc/Bn9xCv9B/1-2.jpg'),
+                              image: NetworkImage('https://i.postimg.cc/bwfX7x0K/1-3.jpg'),
                               fit: BoxFit.cover,
                             ),
                             border: Border.all(
