@@ -27,8 +27,10 @@ class Tugas extends StatelessWidget {
                 floating: false,
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Container(
+                  centerTitle: false,
+                  title: Card(
+                    color: Colors.white,
+                    elevation: 2,
                     child: Text("Xiaomi Redmi 4a",
                         style: TextStyle(
                           color: Colors.black,
