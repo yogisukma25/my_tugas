@@ -29,6 +29,10 @@ class Tugas extends StatelessWidget {
                 Column(
                   children: [
                     Container(
+                      height: 200,
+                      width: 150,
+                      alignment: Alignment.center,
+                      margin: EdgeInsets.all(5),
                       decoration: BoxDecoration(
                         color: const Color(0xff7c94b6),
                         image: const DecorationImage(
