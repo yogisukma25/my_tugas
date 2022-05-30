@@ -36,6 +36,7 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Text("Belajar Nav Bar"),
