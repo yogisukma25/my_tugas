@@ -37,6 +37,7 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Text("Belajar Nav Bar"),
       ),
       body: ikon[_selectedNavbar],
