@@ -44,7 +44,7 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
             label: 'Call',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.chrome_reader_mode),
+            icon: Icon(Icons.camera_rounded),
             label: 'Chrome',
           ),
           BottomNavigationBarItem(
