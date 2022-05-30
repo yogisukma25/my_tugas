@@ -41,6 +41,7 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
       ),
       body: ikon[_selectedNavbar],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.black,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.call),
