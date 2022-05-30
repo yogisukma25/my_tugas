@@ -38,6 +38,7 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.black,
         title: Text("Belajar Nav Bar"),
       ),
