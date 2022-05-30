@@ -20,13 +20,14 @@ class BelajarNavBar extends StatefulWidget {
 }
 
 class _BelajarNavBarState extends State<BelajarNavBar> {
-  List _selectedNavbar = [
+  final List<Widget> ikon = [
     Icon(Icons.call),
     Icon(Icons.camera_rounded),
-    Icon(Icons.chat)
+    Icon(Icons.chat),
   ];
+  int _selectedNavbar = 0;
 
-  void _changeSelectedNavBar(List index) {
+  void _changeSelectedNavBar(int index) {
     setState(() {
       _selectedNavbar = index;
     });
@@ -38,9 +39,7 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
       appBar: AppBar(
         title: Text("Belajar Nav Bar"),
       ),
-      body: Center(
-        child: Text("$_selectedNavbar", style: TextStyle(fontSize: 16)),
-      ),
+      body: ikon[_selectedNavbar],
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -56,11 +55,11 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
             label: 'Pesan',
           ),
         ],
-        //currentIndex: _selectedNavbar,
+        currentIndex: _selectedNavbar,
         selectedItemColor: Colors.green,
         unselectedItemColor: Colors.grey,
         showUnselectedLabels: true,
-        //onTap: _changeSelectedNavBar,
+        onTap: _changeSelectedNavBar,
       ),
     );
   }
