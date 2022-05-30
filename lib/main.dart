@@ -21,9 +21,9 @@ class BelajarNavBar extends StatefulWidget {
 
 class _BelajarNavBarState extends State<BelajarNavBar> {
   final List<Widget> ikon = [
-    Center(child: Icon(Icons.call, size: 200)),
-    Center(child: Icon(Icons.camera_rounded, size: 200)),
-    Center(child: Icon(Icons.chat, size: 200)),
+    Center(child: Icon(Icons.call, size: 200, color: Colors.deepOrangeAccent)),
+    Center(child: Icon(Icons.camera_rounded, size: 200, color: Colors.deepOrangeAccent)),
+    Center(child: Icon(Icons.chat, size: 200, color: Colors.deepOrangeAccent)),
   ];
   int _selectedNavbar = 0;
 
