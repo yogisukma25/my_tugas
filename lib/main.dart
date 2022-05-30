@@ -40,20 +40,16 @@ class _BelajarNavBarState extends State<BelajarNavBar> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Beranda',
+            icon: Icon(Icons.call),
+            label: 'Call',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.assignment),
-            label: 'Pesanan',
+            icon: Icon(Icons.chrome_reader_mode),
+            label: 'Chrome',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.mail),
-            label: 'Inbox',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Akun',
+            icon: Icon(Icons.chat),
+            label: 'Pesan',
           ),
         ],
         currentIndex: _selectedNavbar,
